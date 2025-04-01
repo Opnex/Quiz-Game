@@ -1,0 +1,52 @@
+Assignment: Quiz Game with Score Tracking
+
+
+
+Objective
+Develop an interactive quiz game where users answer multiple-choice questions, track their score, and see a results summary. This assignment combines arrays, objects, events, and conditionals to create a fun, game-like experience.
+Requirements
+
+
+HTML Structure:
+A section to display the current question, with:
+Question text (e.g., "What is 2 + 2?").
+Four radio buttons or buttons for answer options (e.g., "3", "4", "5", "6").
+A "Submit Answer" button.
+A score display (e.g., "Score: 0/5").
+A results section (hidden until the quiz ends) showing final score and correct/incorrect answers.
+
+
+JavaScript Functionality:
+Use const for a predefined array of question objects:
+Each object: { question: string, options: [string, string, string, string], correct: number (index of correct option) }.
+Example: { question: "What is 2 + 2?", options: ["3", "4", "5", "6"], correct: 1 }.
+Use let for variables like current question index and score.
+Write a function to load the current question and options into the DOM.
+Check the user’s answer on submit:
+Use === to compare the selected option index with correct.
+Increment score if correct.
+Move to the next question or show results when all questions are answered (use if/else).
+Use string methods (e.g., join() for options, toUpperCase() for emphasis in results).
+Add a timer for each question (e.g., 10 seconds, use setTimeout).
+Include a "Restart Quiz" button to reset the game.
+Randomize question order (use Math.random() and sort).
+
+
+
+CSS Basics:
+Style the quiz with a clean, centered layout (e.g., card for question, buttons for options).
+Highlight the selected answer (e.g., background color change).
+Make the results section pop (e.g., green for correct, red for incorrect).
+Deliverables
+A single HTML file with embedded <script> and <style> tags (or separate files if preferred).
+Submit via a link shared in the WhatsApp group.
+A short paragraph (3-5 sentences) on what you learned (e.g., event handling) or found challenging (e.g., tracking state).
+Tips
+Start with a single hardcoded question, then add the array and loop.
+Use console.log(selectedAnswer, correctAnswer) to debug scoring.
+Refer to W3Schools "JS Events" and "JS If Else" for help.
+Learning Goals
+Practice arrays and objects for structured data.
+Use conditionals and comparisons for logic flow.
+Enhance event handling and DOM updates for interactivity.
+Build confidence in creating a complete, user-facing app.
