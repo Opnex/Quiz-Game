@@ -1,0 +1,49 @@
+Assignment: Expense Tracker with Summary
+
+
+Due Date: On or before Monday, April 2, 2025, 9:00 AM
+Objective
+Build an expense tracker where users can log expenses (e.g., "Lunch", "Transport"), categorize them, and see a summary of total spending by category. This assignment reinforces arrays, objects, iteration, and introduces basic data aggregation.
+Requirements
+HTML Structure:
+A form with:
+Text input for expense description (e.g., "Groceries").
+Number input for amount (e.g., 500).
+Dropdown for category (e.g., "Food", "Travel", "Entertainment", "Other").
+A "Add Expense" button.
+A list to display all expenses with description, amount, category, and date added.
+A summary section showing total spending per category (e.g., "Food: ₦1500").
+JavaScript Functionality:
+
+
+Use let for the expenses array and const for fixed values (e.g., category options).
+Store each expense as an object: { description: string, amount: number, category: string, date: Date }.
+Write a function to add an expense to the array when the button is clicked (validate that amount > 0 using >).
+Display expenses in a list, formatting the date (e.g., "March 28, 2025") and amount (e.g., "₦500").
+Create a function to calculate totals per category using array iteration (e.g., forEach or reduce):
+Compare category with === to group expenses.
+Update the summary section dynamically.
+Use string methods (e.g., trim() for description, toFixed(2) for amounts).
+Add a "Delete" button next to each expense (use splice or filter).
+Include a "Total Expenses" value summing all amounts.
+Sort expenses by amount or date (use sort with comparisons).
+CSS Basics:
+Style the form and list for readability (e.g., grid or flexbox layout).
+Color-code categories in the list (e.g., green for "Food", blue for "Travel").
+Make the summary section stand out (e.g., bold text, bordered box).
+
+
+
+Deliverables
+A single HTML file with embedded <script> and <style> tags (or separate files if preferred).
+Submit via a link shared in the WhatsApp group.
+A short paragraph (3-5 sentences) reflecting on what you learned (e.g., array iteration) or found tricky (e.g., calculating totals).
+Tips
+Test adding expenses first, then build the summary logic.
+Use console.log(expenses) to debug your array.
+Check W3Schools/JavasScript.info "JS Array Iteration" for reduce examples.
+Learning Goals
+Master array iteration and data aggregation.
+Practice form handling and input validation.
+Strengthen DOM manipulation with dynamic lists and summaries.
+Apply number formatting and comparisons for practical use.
