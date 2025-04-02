@@ -21,8 +21,8 @@ const questions = [
         correctAnswer: 2
     },
     {
-        question: "Who is the father Aluta?",
-        options: ["Okeowo", "Asefon", "Clement", "Likedat"],
+        question: "What is the capital of Ogun State?",
+        options: ["Ijebu-Ode", "Sagamu", "Ilaro", "Abeokuta"],
         correctAnswer: 0
     }
 ];
