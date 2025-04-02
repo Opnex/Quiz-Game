@@ -23,7 +23,7 @@ const questions = [
     {
         question: "What is the capital of Ogun State?",
         options: ["Ijebu-Ode", "Sagamu", "Ilaro", "Abeokuta"],
-        correctAnswer: 0
+        correctAnswer: 3
     }
 ];
 console.log(questions);
